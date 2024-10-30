@@ -1,0 +1,51 @@
+header,
+footer{
+    background-color: lightskyblue;
+}
+nav{
+    background-color: lightgreen;
+}
+.img{
+    width: 415px;
+    height: 370px;
+}
+#caption{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    background-color: rgb(247, 190, 121);
+    margin: 0;
+    padding: 30px;;
+}
+#container{
+    width: 100%;
+}
+.box{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(247, 190, 121);
+    float: left;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.image{
+    height: 80%;
+    width: 100%;
+}
+@media screen and (max-width: 800px){
+    #box_1,#box_2,#box_3,#box_4{
+        width: 100%;
+    }
+}
+#logo{
+    width: 30%;
+}
+.up{
+    font-size: small;
+    position: relative;
+    top: -0.4em;
+}
+.small{
+    font-size: small;
+}

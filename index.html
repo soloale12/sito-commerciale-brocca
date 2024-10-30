@@ -4,21 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <style>
-        table,
-        th,
-        td {
-            padding:30px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="background-color: lightskyblue;">
-        <img src="immagini/brocca_logo.png" alt="Logo_Brocca" style="width: 20%;">
+    <header>
+        <img id="logo" src="immagini/brocca_logo.png" alt="Logo_Brocca">
         <h1>La Brocca</h1>
     </header>
-    <nav style="background-color: lightgreen">
+    <nav>
         <ul>
             <li><a href="about.html">Chi siamo</a></li>
             <li><a href="gallery.html">Galleria</a></li>
@@ -26,22 +19,29 @@
         </ul>
     </nav>
     <main>
-        <table>
-            <caption style="font-size:x-large;"><b>Menu:<br>alcuni dei piatti che offriamo</b></caption>
-            <tr>
-                <td><img src="immagini/brocca_5.jpg" alt="brocca5" style="width: 95%;"><br>Strozzapreti salsiccia e radicchio<br>14€</td>
-                <td><img src="immagini/brocca_6.jpg" alt="brocca6" style="width: 50%;"><br>Filetto alla crema di balsamico<br>17€</td>
-            </tr>
-            <tr>
-                <td><img src="immagini/brocca_7.jpg" alt="brocca7" style="width: 105%;"><br>Crudo rucola grana<br>9,50€</td>
-                <td><img src="immagini/brocca_8.png" alt="brocca8" style="width: 50%;"><br>Panna Cotta<br>4€</td>
-            </tr>
-            
-        </table>
-        <p>Raccolta informazioni sulla pizzeria La Brocca di Rimini <sup><a href="https://www.labroccarimini.com" target="_blank">[1]</a></small></sup></p>
-        <p><sup>[1]</sup><small> Fonte: <a href="https://www.labroccarimini.com" target="_blank">La Brocca Rimini (sito web)</a></small></p>
+        <p id="caption" >Menu: alcuni dei piatti che offriamo</p>
+        <div class="container">
+            <div id="box_1"  class="box">
+                <img class="image" src="immagini/brocca_5.jpg" alt="brocca5">
+                Strozzapreti salsiccia e radicchio<br>14€
+            </div>
+            <div id="box_2"  class="box">
+                <img class="image" src="immagini/brocca_6.jpg" alt="brocca6" >
+                Filetto alla crema di balsamico<br>17€
+            </div>
+            <div id="box_3"  class="box">
+                <img class="image" src="immagini/brocca_7.jpg" alt="brocca7">
+                Crudo rucola grana<br>9,50€
+            </div>
+            <div id="box_4"  class="box">
+                <img class="image" src="immagini/brocca_8.png" alt="brocca8">
+                Panna Cotta<br>4€
+            </div>
+        </div>
+        <p>Raccolta informazioni sulla pizzeria La Brocca di Rimini <span class="up"><a href="https://www.labroccarimini.com" target="_blank">[1]</a></span></p>
+        <span class="up">[1]</span><span class="small">Fonte: <a href="https://www.labroccarimini.com" target="_blank">La Brocca Rimini (sito web)</a></span>
     </main>
-    <footer style="background-color: lightskyblue;">
+    <footer>
         <p>Semplici informazioni sul ristorante La Brocca di Rimini</p>
     </footer>
 </body>
